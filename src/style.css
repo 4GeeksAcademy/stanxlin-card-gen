@@ -1,1 +1,40 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.cardBody {
+  width: 200px;
+  height: 350px;
+  border: 5px solid black;
+  border-radius: 7px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+#number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 100px;
+}
+
+#icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+#icon2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+  margin-right: 10px;
+  transform: rotate(180deg);
+}
+
+body {
+  background-color: aquamarine;
+}
